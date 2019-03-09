@@ -2,7 +2,7 @@
   "name": "steam-group-check",
   "version": "1.0.0",
   "description": "An NPM module which detects whether a player is in whitelisted steam groups and not in blacklisted steam groups",
-  "main": "src/steam-group-check.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/b3none/steam-group-check/issues"
   },
-  "homepage": "https://github.com/b3none/steam-group-check#readme"
+  "homepage": "https://github.com/b3none/steam-group-check#readme",
+  "dependencies": {
+    "xml2js": "^0.4.19"
+  }
 }
